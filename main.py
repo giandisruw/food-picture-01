@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""food-picture-01 entry: "The Cheese Drip" — a steaming smash burger.
+"""food-picture-01 entry: "The Midnight Pull" — steaming tonkotsu ramen.
 
 Copies the bundled picture (entry.png, a close-up editorial food
-photograph of a smash burger with molten cheddar dripping off a
-charred patty, glossy buttered brioche, steam rising, warm golden
-light on a dark slate board) to the output directory make.fun grades:
+photograph of a black ceramic bowl of tonkotsu ramen: wooden chopsticks
+lifting a tall glossy noodle pull above creamy ivory broth, a halved
+jammy egg with molten yolk dripping, caramelised chashu, nori, scallions
+and a black-garlic-oil swirl, steam curling through warm golden light
+on a dark walnut table) to the output directory make.fun grades:
 $MAKEFUN_OUTPUT_DIR/entry.png (default /output/entry.png).
 
-The picture is a JPEG (1024x1024, ~229 KiB) stored under the name
+The picture is a JPEG (1024x1024, ~224 KiB) stored under the name
 entry.png; the rules allow a PNG or a JPEG told apart by its first
 bytes, with the name staying entry.png either way.
 
