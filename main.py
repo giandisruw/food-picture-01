@@ -12,7 +12,8 @@ entry.png; the rules allow a PNG or a JPEG told apart by its first
 bytes, with the name staying entry.png either way.
 
 Standard library only, deterministic, no network access: the output
-bytes are always an exact copy of entry.png beside this file.
+bytes are always an exact copy of entry.png beside this file — a
+straight copy, so the output is verified byte-identical across runs.
 
     mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 """

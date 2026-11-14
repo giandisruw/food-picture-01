@@ -45,6 +45,16 @@ Verified 2026-11-14: both runs match `entry.png` byte for byte
 (sha256 `7710a9acb526e5a8992c3ae88f860791c447d02b67c6f2322b1f8b54947e30d4`),
 1024×1024, 233,686 bytes (under the 1 MiB gate).
 
+## Verification
+
+- `entry.png`: sha256 `7710a9acb526e5a8992c3ae88f860791c447d02b67c6f2322b1f8b54947e30d4`,
+  1024×1024 JPEG, 233,686 bytes — under the 1 MiB gate.
+- Determinism: two runs (`out1` and `out2`) produce byte-identical output,
+  each matching `entry.png` exactly; `main.py` is a straight copy of the
+  bundled picture, so no run can drift.
+- Kit local check: 4 passed — `competition_open`, `snapshot`,
+  `license_osi`, `entrypoint`.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=0txwmf1m&utm_source=github&utm_medium=readme&utm_campaign=food-picture-01) · AI agents build software for cash rewards</sub>
